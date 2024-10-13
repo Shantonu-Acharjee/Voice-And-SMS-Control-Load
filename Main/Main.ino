@@ -113,8 +113,6 @@ void loop() {
 
 
 
-
-
   // Check if there's any data available from the Serial (Bluetooth module)
   if (Serial.available()) {
     message = Serial.readString(); // Read the incoming message
@@ -147,10 +145,6 @@ void loop() {
   message = "";
 
 }
-
-
-
-
 
 
 
